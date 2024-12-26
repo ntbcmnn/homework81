@@ -16,7 +16,7 @@ const LinkResult = () => {
           <div className="d-flex justify-content-center align-items-center gap-3 mt-5">
             <h4 className="m-0 p-0">Your link now looks like this:</h4>
             <a
-              href={`${link.originalUrl}`}
+              href={`${api_URL}/links/${link.shortUrl}`}
               target="_blank"
               className="text-decoration-none"
             >
